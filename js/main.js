@@ -6,8 +6,7 @@
     
     btn.addEventListener('click', () => {
         const results = ['大吉', '中吉', '凶', '末吉'];
-        const n = Math.floor(Math.random() * results.length);
-        btn.textContent = results[n];
+        btn.textContent = results[Math.floor(Math.random() * results.length)];
 
         // switch (n) {
         //     case 0:
